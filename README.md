@@ -36,6 +36,12 @@ Make sure your code is extensible, in that it is straightforward and obvious how
 * the order of the arguments need not match the order given in the schema.
 * have some tests that suitable default values are correctly assigned if flags given in the schema are missing in the args given.
 
-### Check after kata session
+### Recomended reading:
+
+https://www.codecademy.com/article/tdd-red-green-refactor
+https://martinfowler.com/articles/mocksArentStubs.html
+https://codingdojo.org/WhatIsCodingDojo/
+
+### Source
 
 Copy pasta from: https://codingdojo.org/kata/Args/
