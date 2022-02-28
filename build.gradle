@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    //id 'groovy'
+}
+
+group 'se.tink.kata'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    //spock
+    //implementation "org.codehaus.groovy:groovy:3.0.9"
+    //testImplementation "org.spockframework:spock-core:2.1-groovy-3.0"
+    //testImplementation "org.spockframework:spock-junit4:2.1-groovy-3.0"
+    //testImplementation "org.hamcrest:hamcrest-core:2.2"
+    //testRuntimeOnly 'net.bytebuddy:byte-buddy:1.12.8'
+    //testRuntimeOnly "org.objenesis:objenesis:3.2"
+
+    //junit5
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+
+    //junit4
+//    testImplementation 'junit:junit:4.13.2'
+
+}
+
+wrapper {
+    gradleVersion = '7.3'
+}
+
+test {
+    useJUnitPlatform()
+}
