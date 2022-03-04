@@ -6,7 +6,7 @@ public class Args {
   }
 
   public boolean getBoolean(char l) throws ArgsException {
-    return l == '2';
+    return false;
   }
 
   public int getInt(char p) throws ArgsException {

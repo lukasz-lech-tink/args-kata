@@ -2,7 +2,7 @@
 
 ## About this Kata
 
-This Kata is presented in Robert C.. Martin’s book “Clean Code”, chapter 14.
+This Kata is presented in Robert C. Martin’s book “Clean Code”, chapter 14.
 
 ## Problem Description
 
@@ -36,7 +36,7 @@ Make sure your code is extensible, in that it is straightforward and obvious how
 * the order of the arguments need not match the order given in the schema.
 * have some tests that suitable default values are correctly assigned if flags given in the schema are missing in the args given.
 
-### Recomended reading:
+### Recommended reading:
 
 https://www.codecademy.com/article/tdd-red-green-refactor
 https://martinfowler.com/articles/mocksArentStubs.html
